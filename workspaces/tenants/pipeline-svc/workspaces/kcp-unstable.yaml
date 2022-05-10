@@ -1,0 +1,5 @@
+kcp-cluster: kcp-unstable
+workspaces:
+  - name: plnsvc
+    plnsvc-clusters: 
+      - name: stg.3jhu.p1
