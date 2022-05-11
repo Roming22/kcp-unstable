@@ -1,5 +1,6 @@
-resources:
-- https://raw.githubusercontent.com/roming22/pipelines-service/my/gitops/gitops/kcp/base/kustomization.yaml
-
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+resources:
+  - https://raw.githubusercontent.com/openshift-pipelines/pipelines-service/main/gitops/triggers/triggers-crds/base/namespace.yaml
+  - https://raw.githubusercontent.com/roming22/pipelines-service/my/gitops/gitops/kcp/base/plnsvc-manager.yaml
+  - https://raw.githubusercontent.com/tektoncd/pipeline/v0.32.0/config/100-namespace.yaml
