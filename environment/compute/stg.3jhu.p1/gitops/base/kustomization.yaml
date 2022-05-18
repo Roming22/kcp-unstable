@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - https://raw.githubusercontent.com/roming22/pipelines-service/my/gitops/gitops/plnsvc/base/namespace.yaml
   - https://raw.githubusercontent.com/roming22/pipelines-service/my/gitops/gitops/plnsvc/base/kcp-manager.yaml
+  - https://raw.githubusercontent.com/roming22/pipelines-service/my/gitops/kcp/manifests/plnsvc/argocd-manager.yaml

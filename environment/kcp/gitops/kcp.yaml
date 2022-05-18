@@ -6,11 +6,12 @@ metadata:
 
 spec:
   destination:
+    name: kcp.kcp-unstable
     namespace: kcp
-    server: https://kubernetes.default.svc
   source:
-    path: environment/kcp/gitops/overlay
-    repoURL: https://github.com/Roming22/kcp-unstable.git
+    path: environment/kcp/gitops/base
+    # path: environment/kcp/gitops/overlay
+    repoURL: https://github.com/roming22/kcp-unstable.git
     targetRevision: main
   project: default
   syncPolicy:
